@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<include
+		layout="@layout/title_layout"></include>
+
+	<ImageView
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1.3"
+		android:background="@drawable/ic_nj_banner"
+		android:onClick="startActivity"/>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="2.2"
+        android:background="@color/lightgrey"
+		android:orientation="vertical" >
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="1"
+			android:layout_marginBottom="3dp"
+			android:orientation="horizontal" >
+			<RelativeLayout
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:layout_marginRight="3dp"
+				android:background="@color/white"
+				android:orientation="vertical" >
+				<ImageView
+					android:layout_width="180px"
+					android:layout_height="180px"
+					android:layout_centerInParent="true"
+					android:background="@drawable/ic_nj_reserve"
+					android:onClick="startActivity"/>
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_alignParentBottom="true"
+					android:gravity="center"
+					android:text="开锁登记"
+					android:textColor="@color/black"
+					android:textSize="14sp" />
+			</RelativeLayout>
+			<RelativeLayout
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:background="@color/white"
+				android:orientation="vertical" >
+				<ImageView
+					android:layout_width="180px"
+					android:layout_height="180px"
+					android:layout_centerInParent="true"
+					android:background="@drawable/ic_nj_reserve"
+					android:onClick="startActivity"/>
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_alignParentBottom="true"
+					android:gravity="center"
+					android:text="历史记录"
+					android:textColor="@color/black"
+					android:textSize="14sp" />
+			</RelativeLayout>
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="1"
+			android:paddingBottom="3dp"
+			android:orientation="horizontal" >
+			<RelativeLayout
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:layout_marginRight="3dp"
+				android:background="@color/white"
+				android:orientation="vertical" >
+				<ImageView
+					android:layout_width="180px"
+					android:layout_height="180px"
+					android:layout_centerInParent="true"
+					android:background="@drawable/ic_nj_reserve"
+					android:onClick="startActivity"/>
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_alignParentBottom="true"
+					android:gravity="center"
+					android:text="从业人员"
+					android:textColor="@color/black"
+					android:textSize="14sp" />
+			</RelativeLayout>
+			<RelativeLayout
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:background="@color/white"
+				android:orientation="vertical" >
+				<ImageView
+					android:layout_width="180px"
+					android:layout_height="180px"
+					android:layout_centerInParent="true"
+					android:background="@drawable/ic_nj_reserve"
+					android:onClick="startActivity"/>
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_alignParentBottom="true"
+					android:gravity="center"
+					android:text="积分查询"
+					android:textColor="@color/black"
+					android:textSize="14sp" />
+			</RelativeLayout>
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="1"
+			android:orientation="horizontal" >
+			<RelativeLayout
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:layout_marginRight="3dp"
+				android:background="@color/white"
+				android:orientation="vertical" >
+				<ImageView
+					android:layout_width="180px"
+					android:layout_height="180px"
+					android:layout_centerInParent="true"
+					android:background="@drawable/ic_nj_reserve"
+					android:onClick="startActivity"/>
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_alignParentBottom="true"
+					android:gravity="center"
+					android:text="通知通告"
+					android:textColor="@color/black"
+					android:textSize="14sp" />
+			</RelativeLayout>
+			<RelativeLayout
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:layout_marginRight="3dp"
+				android:background="@color/white"
+				android:orientation="vertical" >
+				<ImageView
+					android:layout_width="180px"
+					android:layout_height="180px"
+					android:layout_centerInParent="true"
+					android:background="@drawable/ic_nj_reserve"
+					android:onClick="startActivity"/>
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_alignParentBottom="true"
+					android:gravity="center"
+					android:text="信息报查"
+					android:textColor="@color/black"
+					android:textSize="14sp" />
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:background="@color/white"
+				android:orientation="vertical" >
+				<ImageView
+					android:layout_width="180px"
+					android:layout_height="180px"
+					android:layout_centerInParent="true"
+					android:background="@drawable/ic_nj_reserve"
+					android:onClick="startActivity"/>
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_alignParentBottom="true"
+					android:gravity="center"
+					android:text="新闻报道"
+					android:textColor="@color/black"
+					android:textSize="14sp" />
+			</RelativeLayout>
+		</LinearLayout>
+	</LinearLayout>
+
+</LinearLayout>

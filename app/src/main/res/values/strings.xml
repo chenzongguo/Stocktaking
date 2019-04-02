@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">库存盘点</string>
+    <string name="scan_text">将二维码放入框内, 即可自动扫描</string>
+    <string name="liveness_detect">liveness detect</string>
+    <string name="register">register</string>
+    <string name="init_failed">init failed,code is %d</string>
+    <string name="permission_denied">permission denied!</string>
+    <string name="active_success">active success</string>
+    <string name="already_activated">already activated</string>
+    <string name="active_failed">active failed,code is %d</string>
+</resources>
