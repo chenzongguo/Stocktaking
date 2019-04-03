@@ -16,6 +16,6 @@ public class MainActivity extends BaseActivity {
 	}
 	public void startActivity(View view){
 		Intent intent = new Intent(MainActivity.this, QRCodeScanActivity.class);
-		startActivityForResult(intent, 100);
+		startActivityForResult(intent, 101);
 	}
 }
