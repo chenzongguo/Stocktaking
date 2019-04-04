@@ -146,7 +146,7 @@ public class SplashActivity extends BaseActivity {
                         }
                     });
                 }
-            },2000);
+            },2001);
     }
 
     public void onPermissionFail() {
