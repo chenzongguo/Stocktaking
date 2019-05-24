@@ -17,4 +17,6 @@
     <color name="lightgrey">#EDEDED</color>
     <!-- 黑色 -->
     <color name="black">#000000</color>
+
+    <color name="line">#D2D2D2</color>
 </resources>

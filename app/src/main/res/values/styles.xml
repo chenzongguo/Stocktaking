@@ -10,4 +10,17 @@
         <item name="android:windowFullscreen">true</item>
     </style>
 
+    <!--实下滑线样式-->
+    <style name="Line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">@color/line</item>
+    </style>
+    <!--实分割线样式-->
+    <style name="vertical">
+        <item name="android:layout_width">0.5dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/line</item>
+    </style>
+
 </resources>
